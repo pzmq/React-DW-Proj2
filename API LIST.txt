@@ -1,0 +1,27 @@
+É NECESSÁRIO FAZER UMA LISTA DA API!!!!!!!!!!!!!!!
+
+
+
+http://192.168.1.128:5109/api/users
+	Retorna uma lista de todos os utilizadores
+
+http://192.168.1.128:5109/api/groups/{username}
+	Retorna uma lista de todos os grupos que o user pertence
+
+
+http://192.168.1.128:5109/api/board/{groupname}
+	Retorna uma lista de todos os quadros associados ao grupo
+
+http://192.168.1.128:5109/api/board/getowner/{boardid}
+	Retorna o nome do grupo a quem o quadro pertence
+
+http://192.168.1.128:5109/api/perm/{quadro}
+	Retorna uma lista de todos as permissões associadas a um Quadro!!!!!!!!
+		
+http://192.168.1.128:5109/api/perm/{username}/{operation}/{value}
+	Retorna uma lista de todos as permissões associadas a um Quadro!!!!!!!!
+
+
+
+FALTA Fazer verificações na API
+
